@@ -1,0 +1,230 @@
+[
+  {
+    "Class": "Thief",
+    "HP": "3",
+    "AP": "4",
+    "ATK": "3",
+    "DEF": "2",
+    "MAG": "2",
+    "WIS": "2",
+    "SPD": "4",
+    "LUK": "4",
+    "Playstyles": [
+      {
+        "Class": "Speed",
+        "HP": "7",
+        "AP": "8",
+        "ATK": "3",
+        "DEF": "2",
+        "MAG": "6",
+        "WIS": "6",
+        "SPD": "16",
+        "LUK": "8"
+      },
+      {
+        "Class": "Stealth",
+        "HP": "3",
+        "AP": "5",
+        "ATK": "11",
+        "DEF": "10",
+        "MAG": "14",
+        "WIS": "10",
+        "SPD": "4",
+        "LUK": "16"
+      },
+      {
+        "Class": "Sturdy",
+        "HP": "15",
+        "AP": "3",
+        "ATK": "7",
+        "DEF": "14",
+        "MAG": "2",
+        "WIS": "14",
+        "SPD": "8",
+        "LUK": "4"
+      },
+      {
+        "Class": "Saboteur",
+        "HP": "11",
+        "AP": "6",
+        "ATK": "15",
+        "DEF": "6",
+        "MAG": "10",
+        "WIS": "2",
+        "SPD": "12",
+        "LUK": "12"
+      }
+    ]
+  },
+  {
+    "Class": "Pirate",
+    "HP": "4",
+    "AP": "1",
+    "ATK": "4",
+    "DEF": "4",
+    "MAG": "1",
+    "WIS": "1",
+    "SPD": "2",
+    "LUK": "1",
+    "Playstyles": [
+      {
+        "Class": "Brutal",
+        "HP": "8",
+        "AP": "2",
+        "ATK": "16",
+        "DEF": "8",
+        "MAG": "5",
+        "WIS": "5",
+        "SPD": "10",
+        "LUK": "1"
+      },
+      {
+        "Class": "Brash",
+        "HP": "4",
+        "AP": "4",
+        "ATK": "8",
+        "DEF": "4",
+        "MAG": "13",
+        "WIS": "9",
+        "SPD": "14",
+        "LUK": "13"
+      },
+      {
+        "Class": "Bulwark",
+        "HP": "12",
+        "AP": "0",
+        "ATK": "4",
+        "DEF": "16",
+        "MAG": "9",
+        "WIS": "13",
+        "SPD": "2",
+        "LUK": "5"
+      },
+      {
+        "Class": "Brawny",
+        "HP": "16",
+        "AP": "3",
+        "ATK": "12",
+        "DEF": "12",
+        "MAG": "1",
+        "WIS": "1",
+        "SPD": "6",
+        "LUK": "9"
+      }
+    ]
+  },
+  {
+    "Class": "Tinkerer",
+    "HP": "2",
+    "AP": "3",
+    "ATK": "2",
+    "DEF": "3",
+    "MAG": "3",
+    "WIS": "3",
+    "SPD": "3",
+    "LUK": "2",
+    "Playstyles": [
+      {
+        "Class": "Maker",
+        "HP": "6",
+        "AP": "6",
+        "ATK": "2",
+        "DEF": "11",
+        "MAG": "11",
+        "WIS": "7",
+        "SPD": "11",
+        "LUK": "6"
+      },
+      {
+        "Class": "Machinist",
+        "HP": "14",
+        "AP": "2",
+        "ATK": "10",
+        "DEF": "15",
+        "MAG": "7",
+        "WIS": "11",
+        "SPD": "3",
+        "LUK": "2"
+      },
+      {
+        "Class": "Modder",
+        "HP": "10",
+        "AP": "5",
+        "ATK": "6",
+        "DEF": "7",
+        "MAG": "15",
+        "WIS": "15",
+        "SPD": "7",
+        "LUK": "14"
+      },
+      {
+        "Class": "Mayhem",
+        "HP": "2",
+        "AP": "4",
+        "ATK": "14",
+        "DEF": "3",
+        "MAG": "3",
+        "WIS": "3",
+        "SPD": "15",
+        "LUK": "10"
+      }
+    ]
+  },
+  {
+    "Class": "Magician",
+    "HP": "1",
+    "AP": "2",
+    "ATK": "1",
+    "DEF": "1",
+    "MAG": "4",
+    "WIS": "4",
+    "SPD": "1",
+    "LUK": "3",
+    "Playstyles": [
+      {
+        "Class": "Wizard",
+        "HP": "1",
+        "AP": "4",
+        "ATK": "5",
+        "DEF": "5",
+        "MAG": "16",
+        "WIS": "4",
+        "SPD": "9",
+        "LUK": "15"
+      },
+      {
+        "Class": "Warlock",
+        "HP": "5",
+        "AP": "5",
+        "ATK": "9",
+        "DEF": "9",
+        "MAG": "12",
+        "WIS": "8",
+        "SPD": "13",
+        "LUK": "7"
+      },
+      {
+        "Class": "Witch Doctor",
+        "HP": "9",
+        "AP": "3",
+        "ATK": "1",
+        "DEF": "1",
+        "MAG": "4",
+        "WIS": "16",
+        "SPD": "1",
+        "LUK": "11"
+      },
+      {
+        "Class": "Warden",
+        "HP": "13",
+        "AP": "1",
+        "ATK": "13",
+        "DEF": "13",
+        "MAG": "8",
+        "WIS": "12",
+        "SPD": "5",
+        "LUK": "3"
+      }
+    ]
+  }
+]

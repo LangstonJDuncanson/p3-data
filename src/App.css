@@ -36,3 +36,88 @@
     transform: rotate(360deg);
   }
 }
+
+/* CSS */
+.button-74 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 2%;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+.playstyles {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.button-list {
+  display: flex;
+  flex-direction: row; /* Align children horizontally */
+  gap: 10px; /* Optional: Adds space between buttons */
+  justify-content: start; /* Optional: Centers buttons horizontally */
+  align-items: center; /* Optional: Centers buttons vertically */
+}
+
+.button-list button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+}
+
+.center-list {
+  display: flex; /* Enable Flexbox */
+  flex-direction: column; /* Align items vertically */
+  align-items: center; /* Center items horizontally */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  list-style-type: none; /* Hide default bullets */
+}
+
+.flex-row {
+  display: flex; 
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+}
