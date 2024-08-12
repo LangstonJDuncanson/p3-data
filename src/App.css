@@ -1,3 +1,7 @@
+h1 {
+  text-align: center;
+}
+
 .App {
   text-align: center;
 }
@@ -105,19 +109,40 @@ ul {
 .center-list {
   display: flex; /* Enable Flexbox */
   flex-direction: column; /* Align items vertically */
-  align-items: center; /* Center items horizontally */
+  align-items: left; /* Center items horizontally */
   padding: 0; /* Remove default padding */
   margin: 0; /* Remove default margin */
   list-style-type: none; /* Hide default bullets */
 }
 
 .flex-row {
-  display: flex; 
+  display: flex;
   flex-direction: row;
 }
 
 .flex-column {
-  display: flex; 
+  display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.stat-text {
+  font-size: 18px;
+  padding: 6px;
+  width: 96px;
+}
+.stat-container {
+  display: flex;
+  align-items: center; /* Vertical centering */
+  justify-content: left; /* Horizontal centering (optional) */
+  height: 48px; /* Example height */
+}
+
+.ancient-map {
+  background-image: url('..\\public\\images\\ParchmentBackground.jpg'); /* URL of the ancient map texture */
+  background-size: cover; /* Ensures the background image covers the entire element */
+  background-repeat: no-repeat; /* Prevents the background from repeating */
+  background-position: center; /* Centers the background image */
+   /* Applies a sepia filter for an aged effect */
+  color: #4B3621; /* A brownish color for text to match the ancient theme */
+  padding: 20px; /* Optional padding to create space around the content */
 }

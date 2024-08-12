@@ -1,34 +1,54 @@
 import React from "react";
+import StatDisplay from "./StatDisplay";
+import DescriptionGrid from "./DescriptionGrid";
 
 function DisplayStatProfile({ currentProfile, subName }) {
   const character = currentProfile;
+  const statImageClass = `.\\images\\${character.Class}.png`;
+  const imageStyle = {
+    width: "512px",
+    height: "512px",
+  };
+  const flexRow = {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    justifyContent: 'flex-start'
+  }
+  
+  const flexColumn =  {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'flex-start',
+    justifyContent: 'flex-start'
+  }
   return (
-    <div className="flex-column">
-      <div>
-        <h1>{character.Class}</h1>
-      </div>
-      <div className="flex-row">
-        <div>
+    <div style={{padding: '0 48px 0px 48px'}} >
+    <div style={flexColumn}>
+      <div style={flexRow}>
+        <div style={flexColumn}>
           <div>
-            <img src=".\logo192.png" />
-          </div>
-          <div>
-            <h2>Description</h2>
+          <h1 style ={{textAlign: 'center'}}>{character.Class}</h1>
+          <img src={statImageClass} style={imageStyle} />
+          <h1 style ={{textAlign: 'center'}}>Abilities</h1>
           </div>
         </div>
-        <div>
-          <h2>Stats</h2>
-          <p>Class: {subName} {character.Class}</p>
-          <p>HP: {character.HP}</p>
-          <p>AP: {character.AP}</p>
-          <p>ATK: {character.ATK}</p>
-          <p>DEF: {character.DEF}</p>
-          <p>MAG: {character.MAG}</p>
-          <p>WIS: {character.WIS}</p>
-          <p>SPD: {character.SPD}</p>
-          <p>LUK: {character.LUK}</p>
+        <div style={{padding: '0 48px 0px 48px'}}>
+          <h1>Stats</h1>
+          {Object.entries(character).map(
+            ([key, value], index) =>
+              key !== "Playstyles" && key !== "Description" && key !== "Class" &&(
+                <StatDisplay statName={key} index={index} value={value} />
+              )
+          )}
         </div>
+        <div>
+        <h1>Description</h1>
+        <DescriptionGrid characterDesc = {character.Description}/>
       </div>
+      </div>
+      
+    </div>
     </div>
   );
 }

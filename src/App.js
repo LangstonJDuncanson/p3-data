@@ -8,7 +8,6 @@ function Header(){
   return (
     <div className='flex-column'>
     <h1>Perils Plights and Plunders</h1>
-    <h2>Database</h2>
     </div>
   );
 }
@@ -64,7 +63,7 @@ if (loading) {
 }
 
 return (
-  <>
+  <div>
   <Header />
   <div className='flex-row'>
   {classData ? (
@@ -74,7 +73,7 @@ return (
       )}
   {showComponent && <DisplayStatProfile currentProfile={currentProfile} subName={subClassName}/>}
     </div>
-  </>
+  </div>
 
 )
   

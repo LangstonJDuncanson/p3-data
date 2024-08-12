@@ -9,6 +9,14 @@
     "WIS": "2",
     "SPD": "4",
     "LUK": "4",
+    "Description": {
+      "The Great": "Thieves excel in speed and luck, making them a force to be reckoned with. Their dexterity allows multiple actions per turn, outmaneuvering opponents with ease. High attack power and health ensure they can deal and endure significant damage. Whether in swift strikes, stealthy assassinations, or sabotage, they dominate the battlefield.",
+      "The Good": "Thieves can adapt to various situations with their versatile playstyles. They can block, evade, or disable foes while still delivering powerful attacks. Their speed ensures they often strike first, dictating the flow of battle. Their strengths are well-balanced, making them reliable in most encounters.",
+      "The Bad": "Thieves suffer from low defense, magic, and wisdom stats, making them vulnerable to sustained magic attacks and status effects. Their lack of defensive prowess means they struggle against heavy-hitting foes. They must rely on evasion rather than absorbing damage. In prolonged battles, their weaknesses can be exposed.",
+      "The Ugly": "The Thief's worst flaw is its frailty in prolonged confrontations, where their low defense and wisdom leave them exposed. Magic-heavy enemies can easily exploit these weaknesses, making the Thief's life short if they’re caught off-guard. Without proper planning, their strengths can quickly become their downfall. The risk of being overwhelmed is ever-present.",
+      "The Question": "Can the Thief’s unmatched speed and dexterity truly outweigh its glaring weaknesses in defense and wisdom? Will their high health and attack power be enough to survive encounters against foes who exploit their vulnerabilities? Is their adaptability enough to compensate for their fragile nature? Success depends on skillful play.",
+      "The Wonderful": "Despite their weaknesses, Thieves bring excitement and potential to any battle. Their speed and versatility allow them to outthink and outpace most foes, turning the tide even in difficult situations. With the right strategy, their drawbacks become negligible, and their strengths shine brightly. The Thief is a thrilling and rewarding class for those who master its intricacies."
+    },
     "Playstyles": [
       {
         "Class": "Speed",
@@ -19,7 +27,15 @@
         "MAG": "6",
         "WIS": "6",
         "SPD": "16",
-        "LUK": "8"
+        "LUK": "8",
+        "Description": {
+          "The Great": "The Speed playstyle excels in unmatched quickness, allowing for the highest number of actions per turn. With top-tier speed and action points, it dominates the battlefield by striking first and often. Evasion is its specialty, making it nearly untouchable. The combination of swiftness and surprise attacks can disrupt opponents and control the pace of battle.",
+          "The Good": "With moderate luck and health, the Speed playstyle maintains a balanced approach in terms of survival. Its evasion and quick stabs make up for its low attack power, allowing for consistent, if not overwhelming, damage. The ability to stun enemies with surprise attacks adds a tactical layer. It’s a reliable choice for players who value agility and control.",
+          "The Bad": "The Speed playstyle’s low attack and defense stats are significant drawbacks. While it can evade attacks, when hit, the damage taken is substantial. Prolonged battles may expose its inability to deal heavy damage, requiring careful management of resources. It’s a fragile style that struggles against high-defense foes.",
+          "The Ugly": "The worst aspect of the Speed playstyle is its paper-thin defense, making it highly vulnerable to any successful hit. Its low attack power means it struggles to deal sufficient damage without relying on stuns or piercing effects. If the enemy withstands the initial onslaught, the Speed playstyle can quickly find itself overwhelmed. The margin for error is razor-thin.",
+          "The Question": "Can the Speed playstyle’s evasion and quick actions truly compensate for its lack of defense and attack power? Will its ability to stun and evade be enough to outlast opponents in tough battles? Can it pierce through defenses reliably, or will it falter against well-armored foes? The balance between speed and fragility is delicate.",
+          "The Wonderful": "Despite its vulnerabilities, the Speed playstyle is exhilarating, offering unparalleled agility and tactical flexibility. Its ability to outmaneuver and disrupt foes can turn the tide of any battle. With smart play and the right timing, its weaknesses become irrelevant, allowing its strengths to shine. The Speed playstyle is a thrilling challenge, rewarding those who master its finesse."
+        }
       },
       {
         "Class": "Stealth",
@@ -30,7 +46,15 @@
         "MAG": "14",
         "WIS": "10",
         "SPD": "4",
-        "LUK": "16"
+        "LUK": "16",
+        "Description": {
+          "The Great": "The Stealth playstyle excels in staying hidden, using high luck and magic to execute devastating ambushes. Its ability to remain undetected allows for strategic positioning and powerful single-target attacks. With a focus on traps and silent movement, it can control the battlefield from the shadows. When played carefully, Stealth can turn a risky scenario into a deadly advantage.",
+          "The Good": "With moderate attack, defense, and wisdom, the Stealth playstyle offers balanced capabilities in combat. It’s effective against magic attacks, using wisdom to mitigate damage. The ability to hide and conceal allies adds a layer of strategy, making the team more resilient. Despite low speed and health, its ambush potential and trap-setting make it a formidable option when well-prepared.",
+          "The Bad": "The Stealth playstyle’s very low health and speed are significant liabilities, making it vulnerable if discovered. The time-consuming nature of setting up traps and executing ambushes can leave the Stealth user exposed. In fast-paced battles, it may struggle to keep up. The risk of being caught is high, and the consequences can be severe.",
+          "The Ugly": "The worst aspect of the Stealth playstyle is its fragility; if caught, its very low health means it can be taken out quickly. The reliance on slow, methodical actions can be a double-edged sword, leaving the player vulnerable during setup. Misjudging timing or being forced into open combat can spell disaster. The playstyle is unforgiving, with little room for error.",
+          "The Question": "Can the Stealth playstyle’s powerful ambushes and traps truly make up for its glaring vulnerabilities in health and speed? Will its ability to hide and strike from the shadows be enough to survive in a fast-paced battle? Can it control the flow of combat, or will it be overwhelmed by quicker foes? Success hinges on precise execution and careful planning.",
+          "The Wonderful": "Despite its weaknesses, the Stealth playstyle offers a unique and thrilling approach to combat. The satisfaction of a well-timed ambush or perfectly laid trap is unmatched. When executed correctly, its strengths can turn the tide of battle, making it a rewarding challenge. For those who value cunning and strategy, Stealth offers a deeply satisfying and potent playstyle."
+        }
       },
       {
         "Class": "Sturdy",
@@ -41,7 +65,15 @@
         "MAG": "2",
         "WIS": "14",
         "SPD": "8",
-        "LUK": "4"
+        "LUK": "4",
+        "Description": {
+          "The Great": "The Sturdy playstyle excels in defense, boasting exceptional health, defense, and wisdom. It’s built to withstand both physical and magical assaults, making it a reliable tank on the battlefield. With abilities to create blocks and convert them into damage, it can endure and retaliate effectively. This playstyle is perfect for absorbing hits and anchoring the team.",
+          "The Good": "The Sturdy playstyle offers moderate damage, allowing it to chip away at foes while maintaining a strong defense. Its ability to counter attacks adds an offensive edge, making it more versatile than just a defensive wall. High wisdom helps mitigate magic damage, ensuring well-rounded resilience. While not flashy, it’s dependable in prolonged battles.",
+          "The Bad": "The Sturdy playstyle suffers from very low magic damage potential and luck, making it vulnerable to status effects and critical hits. Its moderate damage output and limited action points mean it can’t easily turn the tide of battle offensively. It’s more about endurance than quick victories. The playstyle can struggle against enemies that require fast or high-damage responses.",
+          "The Ugly": "The worst flaw of the Sturdy playstyle is its sluggishness, with very few action points and low luck. Its inability to avoid status effects or deliver critical hits makes it vulnerable in drawn-out fights. It’s not built for high-impact plays, and its low magic damage potential limits its versatility. The playstyle’s strength in defense comes at the cost of offensive dynamism.",
+          "The Question": "Can the Sturdy playstyle’s impressive defenses truly compensate for its low magic damage and luck in critical situations? Will its ability to block and counter be enough to withstand relentless assaults? Can it hold its ground while contributing meaningfully to damage output? The balance between defense and offense is delicate and demands careful play.",
+          "The Wonderful": "Despite its limitations, the Sturdy playstyle offers unmatched resilience, making it a cornerstone of any team. Its ability to withstand and counter attacks makes it a reliable asset in tough battles. While not the strongest offensively, its defensive prowess allows others to shine. For players who value endurance and strategic defense, the Sturdy playstyle is a rewarding and dependable choice."
+        }
       },
       {
         "Class": "Saboteur",
@@ -52,7 +84,15 @@
         "MAG": "10",
         "WIS": "2",
         "SPD": "12",
-        "LUK": "12"
+        "LUK": "12",
+        "Description": {
+          "The Great": "The Saboteur playstyle is the ultimate damage dealer, with the highest attack among all thief playstyles. It excels in delivering devastating blows and status effects like poison, bleeding, and vampiric siphons. With solid health, speed, and magic, it overwhelms opponents quickly. The Saboteur’s relentless focus on destruction makes it the deadliest option in any battle.",
+          "The Good": "With strong attack, speed, and health, the Saboteur can keep up the pressure in combat. Its ability to inflict multiple status effects adds layers to its damage potential, making it difficult for enemies to recover. The Saboteur’s versatility allows it to adapt to various situations, ensuring it remains a threat. Its high damage output can quickly shift the tide of battle.",
+          "The Bad": "The Saboteur suffers from extremely low wisdom and poor defense, making it vulnerable to magical attacks and status effects. Its glass cannon nature means it can be easily overwhelmed if caught off guard. The relentless focus on offense leaves little room for self-preservation. Without proper support, it risks being taken down before it can fully unleash its potential.",
+          "The Ugly": "The worst aspect of the Saboteur playstyle is its fragility; with very low wisdom and subpar defense, it’s easily destroyed by magical and powerful physical attacks. The trade-off for its high damage is a significant lack of survivability. When its offensive strategies fail, the Saboteur is left dangerously exposed. The risks are high, and the margin for error is slim.",
+          "The Question": "Can the Saboteur’s immense damage output truly outweigh its glaring weaknesses in defense and wisdom? Will its ability to inflict status effects be enough to overcome its fragility? Can it obliterate foes before they exploit its vulnerabilities? The balance between devastating power and survival is a constant challenge.",
+          "The Wonderful": "Despite its weaknesses, the Saboteur playstyle offers exhilarating combat, with high-risk, high-reward dynamics. Its ability to deal massive damage and cripple opponents with status effects makes it a formidable force. With the right support and timing, the Saboteur’s strengths can outshine its vulnerabilities. For those who crave relentless offense, the Saboteur is a thrilling and rewarding choice."
+        }
       }
     ]
   },
@@ -66,6 +106,14 @@
     "WIS": "1",
     "SPD": "2",
     "LUK": "1",
+    "Description": {
+      "The Great": "",
+      "The Good": "",
+      "The Bad": "",
+      "The Ugly": "",
+      "The Question": "",
+      "The Wonderful": ""
+    },
     "Playstyles": [
       {
         "Class": "Brutal",
@@ -76,7 +124,15 @@
         "MAG": "5",
         "WIS": "5",
         "SPD": "10",
-        "LUK": "1"
+        "LUK": "1",
+        "Description": {
+          "The Great": "",
+          "The Good": "",
+          "The Bad": "",
+          "The Ugly": "",
+          "The Question": "",
+          "The Wonderful": ""
+        }
       },
       {
         "Class": "Brash",
@@ -87,7 +143,15 @@
         "MAG": "13",
         "WIS": "9",
         "SPD": "14",
-        "LUK": "13"
+        "LUK": "13",
+        "Description": {
+          "The Great": "",
+          "The Good": "",
+          "The Bad": "",
+          "The Ugly": "",
+          "The Question": "",
+          "The Wonderful": ""
+        }
       },
       {
         "Class": "Bulwark",
@@ -98,7 +162,15 @@
         "MAG": "9",
         "WIS": "13",
         "SPD": "2",
-        "LUK": "5"
+        "LUK": "5",
+        "Description": {
+          "The Great": "",
+          "The Good": "",
+          "The Bad": "",
+          "The Ugly": "",
+          "The Question": "",
+          "The Wonderful": ""
+        }
       },
       {
         "Class": "Brawny",
@@ -109,7 +181,15 @@
         "MAG": "1",
         "WIS": "1",
         "SPD": "6",
-        "LUK": "9"
+        "LUK": "9",
+        "Description": {
+          "The Great": "",
+          "The Good": "",
+          "The Bad": "",
+          "The Ugly": "",
+          "The Question": "",
+          "The Wonderful": ""
+        }
       }
     ]
   },
@@ -123,6 +203,14 @@
     "WIS": "3",
     "SPD": "3",
     "LUK": "2",
+    "Description": {
+      "The Great": "",
+      "The Good": "",
+      "The Bad": "",
+      "The Ugly": "",
+      "The Question": "",
+      "The Wonderful": ""
+    },
     "Playstyles": [
       {
         "Class": "Maker",
@@ -133,7 +221,15 @@
         "MAG": "11",
         "WIS": "7",
         "SPD": "11",
-        "LUK": "6"
+        "LUK": "6",
+        "Description": {
+          "The Great": "",
+          "The Good": "",
+          "The Bad": "",
+          "The Ugly": "",
+          "The Question": "",
+          "The Wonderful": ""
+        }
       },
       {
         "Class": "Machinist",
@@ -144,7 +240,15 @@
         "MAG": "7",
         "WIS": "11",
         "SPD": "3",
-        "LUK": "2"
+        "LUK": "2",
+        "Description": {
+          "The Great": "",
+          "The Good": "",
+          "The Bad": "",
+          "The Ugly": "",
+          "The Question": "",
+          "The Wonderful": ""
+        }
       },
       {
         "Class": "Modder",
@@ -155,7 +259,15 @@
         "MAG": "15",
         "WIS": "15",
         "SPD": "7",
-        "LUK": "14"
+        "LUK": "14",
+        "Description": {
+          "The Great": "",
+          "The Good": "",
+          "The Bad": "",
+          "The Ugly": "",
+          "The Question": "",
+          "The Wonderful": ""
+        }
       },
       {
         "Class": "Mayhem",
@@ -166,7 +278,15 @@
         "MAG": "3",
         "WIS": "3",
         "SPD": "15",
-        "LUK": "10"
+        "LUK": "10",
+        "Description": {
+          "The Great": "",
+          "The Good": "",
+          "The Bad": "",
+          "The Ugly": "",
+          "The Question": "",
+          "The Wonderful": ""
+        }
       }
     ]
   },
@@ -180,6 +300,14 @@
     "WIS": "4",
     "SPD": "1",
     "LUK": "3",
+    "Description": {
+      "The Great": "",
+      "The Good": "",
+      "The Bad": "",
+      "The Ugly": "",
+      "The Question": "",
+      "The Wonderful": ""
+    },
     "Playstyles": [
       {
         "Class": "Wizard",
@@ -190,7 +318,15 @@
         "MAG": "16",
         "WIS": "4",
         "SPD": "9",
-        "LUK": "15"
+        "LUK": "15",
+        "Description": {
+          "The Great": "",
+          "The Good": "",
+          "The Bad": "",
+          "The Ugly": "",
+          "The Question": "",
+          "The Wonderful": ""
+        }
       },
       {
         "Class": "Warlock",
@@ -201,10 +337,18 @@
         "MAG": "12",
         "WIS": "8",
         "SPD": "13",
-        "LUK": "7"
+        "LUK": "7",
+        "Description": {
+          "The Great": "",
+          "The Good": "",
+          "The Bad": "",
+          "The Ugly": "",
+          "The Question": "",
+          "The Wonderful": ""
+        }
       },
       {
-        "Class": "Witch Doctor",
+        "Class": "Witch Dr",
         "HP": "9",
         "AP": "3",
         "ATK": "1",
@@ -212,7 +356,15 @@
         "MAG": "4",
         "WIS": "16",
         "SPD": "1",
-        "LUK": "11"
+        "LUK": "11",
+        "Description": {
+          "The Great": "",
+          "The Good": "",
+          "The Bad": "",
+          "The Ugly": "",
+          "The Question": "",
+          "The Wonderful": ""
+        }
       },
       {
         "Class": "Warden",
@@ -223,7 +375,15 @@
         "MAG": "8",
         "WIS": "12",
         "SPD": "5",
-        "LUK": "3"
+        "LUK": "3",
+        "Description": {
+          "The Great": "",
+          "The Good": "",
+          "The Bad": "",
+          "The Ugly": "",
+          "The Question": "",
+          "The Wonderful": ""
+        }
       }
     ]
   }
