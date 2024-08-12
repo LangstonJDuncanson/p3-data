@@ -136,13 +136,3 @@ ul {
   justify-content: left; /* Horizontal centering (optional) */
   height: 48px; /* Example height */
 }
-
-.ancient-map {
-  background-image: url('..\\public\\images\\ParchmentBackground.jpg'); /* URL of the ancient map texture */
-  background-size: cover; /* Ensures the background image covers the entire element */
-  background-repeat: no-repeat; /* Prevents the background from repeating */
-  background-position: center; /* Centers the background image */
-   /* Applies a sepia filter for an aged effect */
-  color: #4B3621; /* A brownish color for text to match the ancient theme */
-  padding: 20px; /* Optional padding to create space around the content */
-}
